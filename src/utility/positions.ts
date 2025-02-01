@@ -1,4 +1,4 @@
-import approvalMax from "../assets/images/avatars/approvalMax.jpg";
+import approvalMax from "../assets/images/avatars/approvalmax.jpg";
 import eqvanta from "../assets/images/avatars/eqvanta.jpeg";
 import visier from "../assets/images/avatars/visier.jpg";
 import yva from "../assets/images/avatars/yva.jpg";
