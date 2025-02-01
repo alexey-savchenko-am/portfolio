@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+  html {
+    @apply bg-gradient-to-b from-gray-900 to-gray-800; 
+  }
+  body {
+    @apply min-h-screen; 
+  }
+}
+
+@layer components {
+  .primary-btn {
+      @apply text-yellow-500 border px-2 py-1 uppercase  font-poppins rounded-sm
+        tracking-wider hover:text-gray-800  hover:bg-yellow-500 border-yellow-500;
+  }
+  .primary-textbox {
+    @apply text-gray-800 border border-yellow-500 px-4 py-3 
+      font-poppins rounded-lg w-full tracking-wider outline-none 
+      text-xl bg-white/80 shadow-md 
+      transition-all duration-200 focus:ring-2 focus:ring-yellow-400 focus:border-yellow-600;
+  }
+  
+  .primary-outline-btn {
+    @apply border-2 border-primary text-primary font-semibold py-3 px-6 rounded-xl;
+}
+}
+
