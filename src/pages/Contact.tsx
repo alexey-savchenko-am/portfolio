@@ -1,9 +1,11 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import { motion } from "framer-motion";
+import { useNavigate } from "react-router-dom";
 
 const Contact = () => {
   const formRef = useRef<HTMLFormElement>(null);
+  const nav = useNavigate();
 
   const sendEmail = (e: React.FormEvent) => {
     e.preventDefault();
@@ -13,7 +15,7 @@ const Contact = () => {
       .then(
         () => {
           alert("Message successfully sent!");
-          window.location.reload();
+          nav("/");
         },
         (error) => {
           console.log(error.text);
