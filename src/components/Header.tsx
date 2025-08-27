@@ -35,15 +35,6 @@ const Header = () => {
                         </NavLink>
                     </li>
                     <li>
-                        <NavLink to="/about" 
-                         className={({ isActive }) =>
-                            isActive ? "text-yellow-500" : "hover:text-yellow-300 duration-200"
-                          }
-                        >
-                            About
-                        </NavLink>
-                    </li>
-                    <li>
                     <NavLink to="/experience" 
                          className={({ isActive }) =>
                             isActive ? "text-yellow-500" : "hover:text-yellow-300 duration-200"

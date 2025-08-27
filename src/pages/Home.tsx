@@ -6,6 +6,7 @@ import { motion } from "framer-motion";
 import { FadeLeft, FadeRight } from '../utility/animation';
 import { Link } from 'react-router-dom';
 import { RiArrowRightCircleFill } from 'react-icons/ri';
+import ViewButton from '../components/ViewButton';
 
 
 const Home = () => {
@@ -59,8 +60,15 @@ const Home = () => {
             >
               Download CV <MdDownload />
             </a>
+           
           </motion.div>
-        
+          <motion.div
+            initial={{opacity:0}}
+            animate={{opacity:1}}
+            transition={{duration:2, delay:1.6}}
+            className="flex justify-center md:justify-end h-10">
+              <ViewButton pageId='page1'/>
+          </motion.div>
         </div>
 
         {/* Avatar Section */}
