@@ -40,10 +40,15 @@ const Home = () => {
             transition={{duration:2, delay:1}}
             className="text-gray-300 md:text-lg leading-relaxed"
            >
-            Experienced .NET/C# developer specializing in building scalable and high-performance backend solutions. Proficient in containerization and orchestration using Docker and Kubernetes, and experienced in designing robust APIs with REST, SOAP, and gRPC.
-            Skilled in database management across MS SQL, PostgreSQL, MongoDB, and Redis, and adept at implementing messaging and event-driven architectures with RabbitMQ and Kafka.
-            Experienced in cloud technologies, including Microsoft Azure and AWS, with hands-on expertise in designing, deploying, and optimizing cloud-based solutions for reliability and scalability.
-            Additionally, competent in front-end development, building dynamic, responsive interfaces with React JS, bridging the gap between backend services and seamless user experiences.
+            Experienced <strong>.NET/C#</strong> developer specializing in building scalable and high-performance backend solutions. 
+            Proficient in containerization and orchestration using <strong>Docker</strong> and <strong>Kubernetes</strong>, 
+            and experienced in designing robust APIs with <strong>REST</strong>, <strong>SOAP</strong> and <strong>gRPC</strong>.
+            Skilled in database management across <strong>MS SQL</strong>, <strong>PostgreSQL</strong>, <strong>MongoDB</strong>, and <strong>Redis</strong>, 
+            and adept at implementing messaging and event-driven architectures with  <strong>RabbitMQ</strong> and <strong>Kafka</strong>.
+            Experienced in cloud technologies, including <strong>Microsoft Azure</strong> and <strong>AWS</strong>, 
+            with hands-on expertise in designing, deploying, and optimizing cloud-based solutions for reliability and scalability.
+            Additionally, competent in front-end development, building dynamic, responsive interfaces with <strong>React JS</strong>, 
+            bridging the gap between backend services and seamless user experiences.
           </motion.p>
           
           <motion.div 
