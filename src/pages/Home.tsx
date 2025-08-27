@@ -40,10 +40,10 @@ const Home = () => {
             transition={{duration:2, delay:1}}
             className="text-gray-300 md:text-lg leading-relaxed"
            >
-            Experienced in .NET/C# for building scalable backend solutions, with expertise in Docker and Kubernetes for containerization and orchestration.
-            Proficient in developing APIs with REST and SOAP, and managing databases like MS SQL, PostgreSQL, MongoDB, and Redis.
-            Skilled in using RabbitMQ and Kafka for messaging and integration. In cloud technologies, I focus on Microsoft Azure, where I design, deploy, and optimize cloud-based solutions.
-            Additionally, I have experience in front-end development, creating dynamic and responsive interfaces using React JS.
+            Experienced .NET/C# developer specializing in building scalable and high-performance backend solutions. Proficient in containerization and orchestration using Docker and Kubernetes, and experienced in designing robust APIs with REST, SOAP, and gRPC.
+            Skilled in database management across MS SQL, PostgreSQL, MongoDB, and Redis, and adept at implementing messaging and event-driven architectures with RabbitMQ and Kafka.
+            Experienced in cloud technologies, including Microsoft Azure and AWS, with hands-on expertise in designing, deploying, and optimizing cloud-based solutions for reliability and scalability.
+            Additionally, competent in front-end development, building dynamic, responsive interfaces with React JS, bridging the gap between backend services and seamless user experiences.
           </motion.p>
           
           <motion.div 
