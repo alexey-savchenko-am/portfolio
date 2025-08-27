@@ -36,16 +36,6 @@ const MobileMenu = ({ isMenuOpened, onClose }: MobileMenuProps) => {
               </NavLink>
             </li>
             <li>
-              <NavLink
-                to="/about"
-                className={({ isActive }) =>
-                  isActive ? "text-yellow-500" : "text-gray-600"
-                }
-              >
-                 About
-              </NavLink>
-            </li>
-            <li>
                 <NavLink
                 to="/experience"
                 className={({ isActive }) =>
