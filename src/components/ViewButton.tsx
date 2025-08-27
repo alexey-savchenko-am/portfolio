@@ -37,13 +37,12 @@ const ViewButton: React.FC<LikeButtonProps> = ({ pageId }) => {
 
   const handleLike = async () => {
     if (liked) return;
+    setLiked(true);
+    setLikes(likes + 1);
+    localStorage.setItem(storageKey, "true");
 
     const docRef = doc(db, "likes", pageId);
     await setDoc(docRef, { count: likes + 1 });
-    setLikes(likes + 1);
-
-    setLiked(true);
-    localStorage.setItem(storageKey, "true");
   };
 
   if(loading) return (
